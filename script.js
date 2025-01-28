@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const addTask = () => {
         // Retrieve and trim the task input value
         const taskText = taskInput.value.trim();
+        ["classList.add"]
 
         // Check if the input is empty
         if (taskText === "") {
